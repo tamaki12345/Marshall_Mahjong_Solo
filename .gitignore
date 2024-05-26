@@ -8,3 +8,5 @@ UserSettings
 .Assembly-CSharp
 Marshall_Mahjong_Solo
 *.meta
+*.csproj
+*.sln

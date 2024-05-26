@@ -1,0 +1,10 @@
+.vscode/
+Library/
+Logs/
+Packages/
+ProjectSettings/
+UserSettings
+.vsconfig
+.Assembly-CSharp
+Marshall_Mahjong_Solo
+*.meta

@@ -124,12 +124,12 @@ namespace Marshall_Mahjong
             {
                 int tmp, r;
 
-                for ( int i = 136; i > 0; i-- )
+                for ( int i = 135; i >= 0; i-- )
                 {
                     r = Random.Range(0,i);
                     tmp = pile[r];
                     pile[r] = pile[i];
-                    pile[i] = r;
+                    pile[i] = tmp;
                 }
 
                 return;
@@ -140,6 +140,7 @@ namespace Marshall_Mahjong
                 return;
             }
         }
+
     }
 }
 

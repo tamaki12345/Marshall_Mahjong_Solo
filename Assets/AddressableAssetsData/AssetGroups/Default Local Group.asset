@@ -1,0 +1,710 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: efc66d97a6d0fcc479d4465fe3dfff59
+  m_SerializeEntries:
+  - m_GUID: 6e4fb065d09e0de42a50209bfb8089e4
+    m_Address: hiragana_YO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8dea2fd859c2f04982ad04d3c985aa4
+    m_Address: hiragana_YA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0628e4b9330526340a39d59514efa6f2
+    m_Address: hiragana_WNN
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87fef5a47879735469606a7f425830b4
+    m_Address: hiragana_WA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ef34e9051a7cc04d8b119068840a848
+    m_Address: hiragana_U
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49173b6fa25f8f143adfd147c5b798d4
+    m_Address: hiragana_TU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 398a5882d1850e54998cd70d5f43d0ec
+    m_Address: hiragana_TO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c5e8a9b5adc9434c99fbb645409cb82
+    m_Address: hiragana_TI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fafb26756d2af9f4a8bbc03dd4708180
+    m_Address: hiragana_TE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebcd3f4eb78a2e44488ee358bba03425
+    m_Address: hiragana_TA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5339318abcd35314db52f0ae18ca0f3a
+    m_Address: hiragana_SU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 109ea2f2e2902404e86b9b143521981c
+    m_Address: hiragana_SO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b7da7878a11ff44885594e9e06ac4a0
+    m_Address: hiragana_SI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9dc64320304557145a430376b185c425
+    m_Address: hiragana_SE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da88e5f1560baa44193f4c4a9279d13e
+    m_Address: hiragana_SA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b2a77a20c9d4c54b9412168c9360cd5
+    m_Address: hiragana_RU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 055dff0c22657df4b882ec3886c5cc0e
+    m_Address: hiragana_RO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4ad88203dde1614b8f4bca8395acb2e
+    m_Address: hiragana_RI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9500ca7371fe8b740b78c2870b61ce37
+    m_Address: hiragana_RE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6caf82110461b1845b07ea36bd8b5b95
+    m_Address: hiragana_RA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1daaf18e179519243beed8e4f061f139
+    m_Address: hiragana_O
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 650e9cfe5cfae224085d7de41613c608
+    m_Address: hiragana_NU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a977ed4df19c4c64aaa2dd544214fa65
+    m_Address: hiragana_NO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff0af3e81b8a6c14eac5ae972040f744
+    m_Address: hiragana_NI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27164eec70e6d4643bc01e58a1408307
+    m_Address: hiragana_NE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fab6f65e4fba6fd46a542679863a93ee
+    m_Address: hiragana_NA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b43f80e1a6aefa746bc11008acdbee96
+    m_Address: hiragana_MU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b25879f7bb8490469d1f8f651f0fe90
+    m_Address: hiragana_MO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06e6ff7795088664e9cd4f9c04dc2aab
+    m_Address: hiragana_MI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3269364060efe8408bfccf4fbe563a5
+    m_Address: hiragana_ME
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cc1dfa316b8c554bbf53b74bc5fd99c
+    m_Address: hiragana_MA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 009c36144826feb44a93a9b9b3914818
+    m_Address: hiragana_KU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0f1ad7c5e282ad4e8c8fdb098c90e04
+    m_Address: hiragana_KO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89abcb381273999449d9c829c4c7e94d
+    m_Address: hiragana_KI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4da352164e8685743ac5e5d40c45426c
+    m_Address: hiragana_KE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 876f18c6018dadb419c7d695f5be4853
+    m_Address: hiragana_KA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16ee6b0c4aa548f409f81194c817b345
+    m_Address: hiragana_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5546c8d12c8be54ba864600213e794f
+    m_Address: hiragana_HU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c319a2f54bdb304d981b38769eec4ad
+    m_Address: hiragana_HO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 966e26439ecf4074bbcb299079cad53b
+    m_Address: hiragana_HI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f54db6c90bd90844b94eec539b34340
+    m_Address: hiragana_HE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13e3d5e0cf0c0fb46b87565956f00026
+    m_Address: hiragana_HA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 216463df7aa846f4c9297c8ce0db3d97
+    m_Address: hiragana_E
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4e2667717aa8f04d8e07f5cd9d10511
+    m_Address: hiragana_A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2e04cbf2d4454349800e4f432f829a6
+    m_Address: haku
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec06d64e61c8c4341b83e3f66c4b7438
+    m_Address: Tile_Tedxture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88d2ab79ba8bfc243a269a8933d54e86
+    m_Address: hiragana_YU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b9e2dfb9f68eff4f847496f65cdb3b9
+    m_Address: kanji_A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b41d70e1c069fc24386d7664c470fb76
+    m_Address: kanji_E
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69dd62cb6fa82c74eaf30b9ef2cf25af
+    m_Address: kanji_HA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caff7027e7676ae4a9f6d488d3425cb2
+    m_Address: kanji_HE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2ee95cdb9db3cf4eb8ad40e787baceb
+    m_Address: kanji_HI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d897f0d3bceed4429d215aab32f6f77
+    m_Address: kanji_HO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad55fe2b7e51b6a44b8505f7f2babac2
+    m_Address: kanji_HU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9da0135629d9e6848b99df5de93eed72
+    m_Address: kanji_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcefdf29dae0b7c48a98b1bddabd1d71
+    m_Address: kanji_KA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb9b82d66b974dd488bab7cd5addc8b7
+    m_Address: kanji_KE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a077e8eb2d0b25249ab2521e0fe2c02e
+    m_Address: kanji_KI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb2733f518087634b921cdd91f001f8d
+    m_Address: kanji_KO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1e1dce569caa4544a89705e628b223c
+    m_Address: kanji_KU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6a75caddbd1904498071025c3745017
+    m_Address: kanji_MA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14a8e5096f738e541992121a41d38d89
+    m_Address: kanji_ME
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80b3a97bbe065a74db04c30167a9e799
+    m_Address: kanji_MI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b410dd2235fea244baa30fd136a361f
+    m_Address: kanji_MO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a5bcf4eb3b040b44b58990387c3734f
+    m_Address: kanji_MU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea30c6c0ede86674f96300908368a9d4
+    m_Address: kanji_NA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c76be6171329227488bbbdf82318c847
+    m_Address: kanji_NE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8140aafd0dd2e0e45b28500667545a18
+    m_Address: kanji_NI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffc497882fbe19c44b6442aad0db5f80
+    m_Address: kanji_NO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b96de5d1d4321dc41b867a067bab5d68
+    m_Address: kanji_NU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5e779c5eac882447b282378865f1ed5
+    m_Address: kanji_O
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 423238d25623e4b4b924ab941eb0c560
+    m_Address: kanji_RA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 165d55a9bf132f04ab8ca8e7b21a47b7
+    m_Address: kanji_RE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d5972fb490e82546beb8819da767754
+    m_Address: kanji_RI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57e8ddeb98f309548bcbd404006104a7
+    m_Address: kanji_RO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffbe7f3dc3209dd418e5280e1d63c8cc
+    m_Address: kanji_RU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d85db27418b652f49a84509db2ad7b29
+    m_Address: kanji_SA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bfabb0e1c50dc9468b5a2a45a724b29
+    m_Address: kanji_SE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec0e3a3d5a9b4264691c83be21cc7519
+    m_Address: kanji_SI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 394b133f76b50c842bca34d60be5faa6
+    m_Address: kanji_SO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8bf3a9f2e27ec34f81fddbafcf33790
+    m_Address: kanji_SU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68ed4edff694bce4d852ca8421b3e7cf
+    m_Address: kanji_TA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf8168172e07bb44683dc7f76b1ba966
+    m_Address: kanji_TE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 124a638c4a4bbcd45af9555024c16b8d
+    m_Address: kanji_TI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cff405fe13f3c214caaffcd57c447855
+    m_Address: kanji_TO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a351742507d27b041bcc03fcd91536f7
+    m_Address: kanji_TU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1999353d3b82f8c41acaa741af003281
+    m_Address: kanji_U
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2d033093ca15c4458bc0fc0a744a486
+    m_Address: kanji_WA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12363ab44b5cff54eb2c72b27f23500c
+    m_Address: kanji_WNN
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a07b9fc707ea28498567cce9cce84af
+    m_Address: kanji_YA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2687d009537abf14f89f57441d597ffd
+    m_Address: kanji_YO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9928d719504b2eb48a7f5efa4f30c38f
+    m_Address: kanji_YU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 151cd603b58006d45b862d1d6af2f0ab
+    m_Address: katakana_A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c74514a76869c541a37615429e02b5d
+    m_Address: katakana_E
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be05d99afd9a93d429dd7f966675ec8f
+    m_Address: katakana_HA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87127b0d066bbf8489f23877ef3328ab
+    m_Address: katakana_HE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23f606a43a6278f43b16ccb0cdf8147c
+    m_Address: katakana_HI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f4b111c024be034495e3eee053a9f46
+    m_Address: katakana_HO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8b6f7ac4cbff994d9ac5d5f79738f49
+    m_Address: katakana_HU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d15f6ac81903f314e9b71682bde96ce5
+    m_Address: katakana_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0652d84353a44344386d01f5ddac5d92
+    m_Address: katakana_KA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77aa596f795e84949b6dc81267b2441a
+    m_Address: katakana_KE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73f3d9c64c8c72a4ba001ade1a799322
+    m_Address: katakana_KI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0039d9af0796d84e93697946ebc79c0
+    m_Address: katakana_KO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86ddb83e387274e4b9d368bf7ae609ce
+    m_Address: katakana_KU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b31a49d5dbc31284b93519e1fbf8e77e
+    m_Address: katakana_MA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cc8f44e3628372409c27225f5d71356
+    m_Address: katakana_ME
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36b4e1cdebb5c4b479e56a99549810a2
+    m_Address: katakana_MI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6a434ef2b422c343988c7b7ea799668
+    m_Address: katakana_MO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6c3de3cd294d7d49a245fd11a4579f8
+    m_Address: katakana_MU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e54d0674aa5df1645a98fae90187b907
+    m_Address: katakana_NA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fbda042100294c4094dd3a9347f26be
+    m_Address: katakana_NE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f4c2dcea433991479c61e999f2d777d
+    m_Address: katakana_NI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b39f315278b00494abaa6cfe64eacbe0
+    m_Address: katakana_NO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58361aa1d3ad49f4c8b5c97c69b24db8
+    m_Address: katakana_NU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 569178af77fbdf4498783bb3ce64c0b2
+    m_Address: katakana_O
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d143328d9388b7d44a5ccd1da3904ddf
+    m_Address: katakana_RA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf7bdbde9e8975d408635a72391898c3
+    m_Address: katakana_RE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 851061e575552b246b4e97103c98ed33
+    m_Address: katakana_RI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 112d029dec2473d4d9363e497fb2dd17
+    m_Address: katakana_RO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9687cc432757c149bf2008d8a86f97c
+    m_Address: katakana_RU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8b1291a488015a42b1f748663dfa8f4
+    m_Address: katakana_SA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b768d5bdfbff9434fa5a98c477b9c5fe
+    m_Address: katakana_SE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6aec2458e28b9b44abf0858768169e7
+    m_Address: katakana_SI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4429b145c351f34a90645afad60d26a
+    m_Address: katakana_SO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29745226b90697c44ae97bcb150299d0
+    m_Address: katakana_SU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f110fccbd3fa544a8bef2808a670e7e
+    m_Address: katakana_TA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76fc264b224163441bad942ffc3f43ac
+    m_Address: katakana_TE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a9173f0f4183874a8417eb0d2e2eb3d
+    m_Address: katakana_TI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a293eeebc3ce134392b1aba4d9373c3
+    m_Address: katakana_TO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ea1529c771d66b42a508f2bbdca205c
+    m_Address: katakana_TU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29c089f3fb252344382014dcb10ddfe3
+    m_Address: katakana_U
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 251a114a01e5058499fe8e3686b8a2ee
+    m_Address: katakana_WA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9641aeac4187af4685221b0437dfedf
+    m_Address: katakana_WNN
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6629e0cead202c44c97a555169282b1d
+    m_Address: katakana_YA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 968f49c448312fa42bc3e6f0e1ca5550
+    m_Address: katakana_YO
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfd54412abd50dd42925fb8ec02b1c33
+    m_Address: katakana_YU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 89b23ab3247eb4549810ea85c0fcc22d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 633ae5dc9b1e51d4a92ed468f323014a, type: 2}
+    - {fileID: 11400000, guid: 5f263c23263d3924f9f5c5baa14d84ae, type: 2}

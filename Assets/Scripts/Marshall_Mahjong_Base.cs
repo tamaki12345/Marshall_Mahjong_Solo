@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using System;
 
 namespace Marshall_Mahjong 
 {
@@ -260,10 +262,23 @@ namespace Marshall_Mahjong
 
                 for ( int i = 135; i >= 0; i-- )
                 {
-                    r = Random.Range(0,i);
+                    r = UnityEngine.Random.Range(0,i);
                     tmp = pile[r];
                     pile[r] = pile[i];
                     pile[i] = tmp;
+                }
+
+                int[] hands = new int[13];
+                for( int i = 0; i < 13; i++ )
+                {
+                    hands[i] = pile[i];
+                }
+
+                Array.Sort(hands);
+
+                for( int i = 0; i < 13; i++ )
+                {
+                    pile[i] = hands[i];
                 }
 
                 return;

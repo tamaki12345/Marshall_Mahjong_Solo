@@ -8,6 +8,7 @@ using System.Net.Sockets;
 using System.Net;
 using System;
 using System.Text;
+using TMPro;
 
 public class Marshall_Mahjong_Test : MonoBehaviour
 {
@@ -38,15 +39,10 @@ public class Marshall_Mahjong_Test : MonoBehaviour
     //ゲーム終了時表示UIの実体
     private GameObject finish_overlay;
 
-    //Python間通信インスタンス
-    private UdpClient udp;
-    const string HOST = "127.0.0.1";
-    const int PORT = 50007;
-
     //Scene開始時
     void Start()
     {
-        udp = new UdpClient();
+        udp = new UdpClient(9000);
         finish_overlay = GameObject.Find("finish_overlay");
         if( finish_overlay== null )
         {
@@ -61,7 +57,10 @@ public class Marshall_Mahjong_Test : MonoBehaviour
     }
 
     //ゲーム初期化
-    void initGame(){
+    public void initGame(){
+        river_index = 0;
+        tumo_index = 13;
+        
         hai.generatePile( ref pile );
 
         tumo = GameObject.Find( "Tumo" );
@@ -248,26 +247,68 @@ public class Marshall_Mahjong_Test : MonoBehaviour
         }
     }
 
+    //プレイヤーが和了を選択したときに発動
+    public void HoraButton()
+    {
+        GameObject textObj = finish_overlay.transform.GetChild(1).gameObject;
+        TextMeshProUGUI textUI = textObj.GetComponent<TextMeshProUGUI>();
+
+        tumo.SetActive(false);
+        finish_overlay.SetActive(true);
+        
+        //和了かを判定し，テキストで表示
+        string judgeResult = JudgeHora();
+        textUI.text = judgeResult;
+        
+        return;
+    }
+
+    //和了かどうかを判定
+    private string JudgeHora()
+    {
+        ReqestJudge();
+        string result = GetJudge();
+
+        return result;
+    }
+    
+    
+    //Python間通信インスタンス
+    private UdpClient udp;
+    const string python_address = "127.0.0.1";
+    const int python_port = 50000;
+
+    const int my_port = 9000;
+
     //Pythonへ判定を要求
     private void ReqestJudge()
     {
-        IPEndPoint Ep = new IPEndPoint(IPAddress.Parse(HOST), PORT);
-        udp.Connect(Ep);
-
+        //通信のend point
+        IPEndPoint Ep = new IPEndPoint(IPAddress.Parse(python_address), python_port);
+        
         byte[] message = BitConverter.GetBytes(100);
         var encoding = Encoding.GetEncoding("UTF-8");
+        //文字列testを送信
+        //本番では手牌+ツモ牌を送信
         message = encoding.GetBytes("TEST");
         
-        udp.Send(message, message.Length, Ep);
+        //end pointへ送信
+        udp.SendAsync(message, message.Length, Ep);
     }
 
     //Pythonから判定を取得しstringへ
     private string GetJudge()
     {
-        IPEndPoint senderEP = null;
-        byte[] receivedBytes = udp.Receive(ref senderEP);
+        string result;
+
+        //送信元IPの格納変数
+        IPEndPoint Ep = null;
+        byte[] receivedBytes = udp.Receive(ref Ep);
         var encoding = Encoding.GetEncoding("UTF-8");
 
-        return encoding.GetString(receivedBytes);
+        //受信文字列はrecieveBytesをutf-8でencode
+        result = encoding.GetString(receivedBytes);
+
+        return result;
     }
 }

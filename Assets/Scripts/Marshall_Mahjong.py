@@ -1,21 +1,25 @@
 import socket
-import random
-import keyboard
 
-HOST = '127.0.0.1'
-PORT = 50007
+my_address = '127.0.0.1'
+my_port = 50000
+unity_port = 9000
 
-client = socket.socket( socket.AF_INET, socket.SOCK_DGRAM )
-client.bind( ( HOST, PORT ) )
-client.listen()
+socket = socket.socket( socket.AF_INET, socket.SOCK_DGRAM )
+socket.bind( ( my_address, my_port ) )
 
-connection, adress = client.accept()
+while(True):
+    try:
+        print(f'waiting connect \nport:{my_port} \naddress:{my_address}')
+        recieve, (senderIP, senderPORT) = socket.recvfrom( 4096 )
+        recieve = recieve.decode()
+        print('recieved\n',recieve)
 
-while (True):
-    if( keyboard.is_pressed( 'q' ) ):
+        if( recieve != None ):
+            result = 'ノーテン'
+            socket.sendto( result.encode('utf-8'), (my_address, unity_port) )
+            break
+        
+    except KeyboardInterrupt:
+        print('\n...\n')
+        socket.close()
         break
-
-    recieve = connection.recv( 4096 ).decode()
-    if( recieve != None ):
-        result = 'ノーテン'
-        connection.sendto( result.encode('utf-8') )

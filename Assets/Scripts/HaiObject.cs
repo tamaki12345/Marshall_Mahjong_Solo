@@ -54,7 +54,7 @@ public class HaiObject : MonoBehaviour
         else if( this.gameObject.transform.position.x == defaultPos.x )
         {
             GameObject sys = GameObject.Find("System");
-            Marshall_Mahjong_Test tmp = sys.GetComponent<Marshall_Mahjong_Test>();
+            Marshall_Mahjong_Solo tmp = sys.GetComponent<Marshall_Mahjong_Solo>();
             tmp.SetDeafaultPos();
 
             Vector3 pos = this.transform.position;
@@ -96,7 +96,7 @@ public class HaiObject : MonoBehaviour
             int swap_idx = Pos2Idx(defaultPos.x);
             
             GameObject sys = GameObject.Find("System");
-            Marshall_Mahjong_Test tmp = sys.GetComponent<Marshall_Mahjong_Test>();
+            Marshall_Mahjong_Solo tmp = sys.GetComponent<Marshall_Mahjong_Solo>();
             tmp.SwapHands( swap_idx, target_idx );
         }
     }
@@ -104,7 +104,7 @@ public class HaiObject : MonoBehaviour
     private void Dahai()
     {
         GameObject sys = GameObject.Find("System");
-        Marshall_Mahjong_Test tmp = sys.GetComponent<Marshall_Mahjong_Test>();
+        Marshall_Mahjong_Solo tmp = sys.GetComponent<Marshall_Mahjong_Solo>();
         tmp.Dahai( this.gameObject );
 
         chosen = false;
